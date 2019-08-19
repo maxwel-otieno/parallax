@@ -1,0 +1,100 @@
+body,  html{
+	height: 100%;
+	line-height: 1.8em;
+	font-weight: 400;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	color: #666;
+}
+
+.imgsect1, .imgsect3, .imgsect2, .imgsect4{
+	background-repeat: no-repeat;
+	position: relative;
+	opacity: 0.70;
+	background-size: cover;
+	background-position: center;
+
+	background-attachment: fixed;
+}
+
+.imgsect1{
+	background-image: url("./imgs/nai2.jpg");
+	min-height: 100%;
+}
+
+.imgsect2{
+	background-image: url("./imgs/momb1.jpg");
+	min-height: 400px;
+}
+
+.imgsect3{
+	background-image: url("./imgs/kisu1.jpg");
+	min-height: 400px;
+}
+
+.imgsect4{
+	background-image: url("./imgs/konz1.jpg");
+	min-height: 400px;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing:8px;
+	text-transform: uppercase; 
+}
+
+.ptext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.ptext .border.trans{
+	background-color: transparent;
+}
+
+.contain{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.contain-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.contain-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+footer{
+	padding: 20px;
+	background: #f4f4f4;
+}
+
+.last{
+	width: 100%;
+	text-align: center;
+}
+
+.high{
+	font-size: 19px;
+	color: #F0C51B;
+}
+
+@media(max-width: 568px){
+	.imgsect1, .imgsect3, .imgsect2, .imgsect4{
+		background-attachment: scroll;
+	}
+
+	.ptext{
+		font-size: 15px;
+	}
+}
